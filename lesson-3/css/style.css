@@ -1,0 +1,51 @@
+@import "nonestyle.css";
+*{
+	color: #000;
+}
+[class*="__container"] {
+	background-color: rgb(16, 247, 170);
+}
+.header__information-block h1{
+	font-size: 30px;
+	color: gray;
+}
+.header__information-block p{
+	font-size: 18px;
+	color: blue;
+}
+.header__information-block img {
+	max-width: 100%;
+}
+/* ========================================== */
+
+.main {
+	color: grey;
+}
+.main__information-block h2, h3{
+	font-size: 24px;
+}
+.main__text-size h2{
+	font-size: 20px;
+	color: #fff;
+}
+.main__autor-info {
+	font-size: 18px;
+	color: #fff;
+}
+.main__list ul{
+	color: #000;
+	font-size: 18px;
+}
+.main__list p{
+	color: #fff;
+}
+.main__list >p{
+	color: #fff;
+}
+.main__list ~p{
+	color: #000;
+	font-size: 18px;
+}
+footer {
+	color: blue;
+}
