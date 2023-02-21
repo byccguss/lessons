@@ -1,0 +1,48 @@
+@import "nonestyle.css";
+.wraper {
+	overflow: hidden;
+}
+p {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.page {
+}
+.page__title {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px 0px;
+}
+.page__container {
+	display: flex;
+	gap: 30px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+.page__jpg {
+	max-width: 600px;
+}
+.page__jpg img{
+	max-width: 100%;
+	margin: 10px 0px;
+}
+.page__png {
+}
+.page__svg {
+	background-color: #000;
+	height: 300px;
+}
+.page__svg p{
+	background-color: #fff
+}
+.img{
+	display: inline-block;
+	border-radius: 14px;
+}
+.sorry{
+	font-size: 20px;
+	text-transform: uppercase;
+}
